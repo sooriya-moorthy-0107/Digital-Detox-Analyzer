@@ -1,0 +1,14 @@
+name: SCM Audit Pipeline
+on: [push]
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Configuration Audit
+        run: |
+          ls docs/requirements.md
+          ls docs/design.md
+          ls test/test_cases.json
+      - name: Build Execution
+        run: sh build/build.sh

@@ -1,0 +1,4 @@
+[
+  { "id": "TC01", "name": "Login Validation", "expected": "Access to Dashboard" },
+  { "id": "TC02", "name": "Log Entry", "expected": "Data appears after refresh" }
+]
