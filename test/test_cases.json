@@ -1,4 +1,12 @@
 [
   { "id": "TC01", "name": "Login Validation", "expected": "Access to Dashboard" },
-  { "id": "TC02", "name": "Log Entry", "expected": "Data appears after refresh" }
+  { "id": "TC02", "name": "Log Persistence", "expected": "Data appears after refresh" },
+  { "id": "TC03", "name": "Invalid Login", "expected": "Error message displayed" },
+  { "id": "TC04", "name": "Empty Log Submit", "expected": "Validation error" },
+  { "id": "TC05", "name": "CSV Export", "expected": "Download starts" },
+  { "id": "TC06", "name": "Clear Data", "expected": "LocalStorage wiped" },
+  { "id": "TC07", "name": "Mood Selection", "expected": "Mood icon highlighted" },
+  { "id": "TC08", "name": "Productivity Range", "expected": "Slider value updates" },
+  { "id": "TC09", "name": "Detox Generation", "expected": "Plan appears in UI" },
+  { "id": "TC10", "name": "Responsive Toggle", "expected": "Sidebar collapses on mobile" }
 ]
